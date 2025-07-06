@@ -1,0 +1,6 @@
+# Local environment config
+.env
+
+# Word documents and internal reports
+docx/
+.venv/
