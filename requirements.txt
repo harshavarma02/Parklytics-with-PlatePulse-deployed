@@ -10,7 +10,7 @@ paddlepaddle==2.6.1
 pandas==2.2.2
 Pillow==10.4.0
 plotly==5.14.1
-protobuf==3.20.0
+protobuf>=3.20.2,<3.21.0
 python-dotenv==1.0.1
 torch==2.0.1
 torch_summary==1.4.5
