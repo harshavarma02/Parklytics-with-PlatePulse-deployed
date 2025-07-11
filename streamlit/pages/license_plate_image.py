@@ -15,7 +15,7 @@ sys.path.append("../src/")
 st.set_page_config(layout="wide", page_title="License Plate Image Detection")
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-model = YOLO(r"../models/license_plate_detection_models/best_120_epoch_int8_openvino_model_640", task="detect")
+model = YOLO(r"models/license_plate_detection_models/best_120_epoch_int8_openvino_model_640", task="detect")
 lprnet = LPRNet(class_num=len(CHARS), dropout_rate=0)
 lprnet.to(device)
 lprnet.load_state_dict(

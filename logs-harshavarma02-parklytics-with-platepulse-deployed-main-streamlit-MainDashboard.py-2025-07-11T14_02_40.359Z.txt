@@ -1,0 +1,350 @@
+
+[     UTC     ] Logs for parklytics-with-platepulse.streamlit.app/
+────────────────────────────────────────────────────────────────────────────────────────
+[14:00:35] 🖥 Provisioning machine...
+[14:00:35] 🎛 Preparing system...
+[14:00:35] ⛓ Spinning up manager process...
+[14:00:28] 🚀 Starting up repository: 'parklytics-with-platepulse-deployed', branch: 'main', main module: 'streamlit/MainDashboard.py'
+[14:00:28] 🐙 Cloning repository...
+[14:00:37] 🐙 Cloning into '/mount/src/parklytics-with-platepulse-deployed'...
+Updating files:  31% (83/262)Updating files:  32% (84/262)Updating files:  33% (87/262)Updating files:  34% (90/262)Updating files:  35% (92/262)Updating files:  36% (95/262)Updating files:  37% (97/262)Updating files:  38% (100/262)Updating files:  39% (103/262)Updating files:  40% (105/262)Updating files:  41% (108/262)Updating files:  42% (111/262)Updating files:  43% (113/262)Updating files:  44% (116/262)Updating files:  45% (118/262)Updating files:  46% (121/262)Updating files:  47% (124/262)Updating files:  48% (126/262)Updating files:  49% (129/262)Updating files:  50% (131/262)Updating files:  51% (134/262)Updating files:  52% (137/262)Updating files:  53% (139/262)Updating files:  54% (142/262)Updating files:  55% (145/262)Updating files:  56% (147/262)Updating files:  57% (150/262)Updating files:  58% (152/262)Updating files:  59% (155/262)Updating files:  60% (158/262)Updating files:  61% (160/262)Updating files:  62% (163/262)Updating files:  63% (166/262)Updating files:  64% (168/262)Updating files:  65% (171/262)Updating files:  66% (173/262)Updating files:  67% (176/262)Updating files:  68% (179/262)Updating files:  69% (181/262)Updating files:  70% (184/262)Updating files:  71% (187/262)Updating files:  72% (189/262)Updating files:  73% (192/262)Updating files:  74% (194/262)Updating files:  75% (197/262)Updating files:  76% (200/262)Updating files:  77% (202/262)Updating files:  78% (205/262)Updating files:  79% (207/262)Updating files:  80% (210/262)Updating files:  81% (213/262)Updating files:  82% (215/262)Updating files:  83% (218/262)Updating files:  84% (221/262)Updating files:  85% (223/262)Updating files:  86% (226/262)Updating files:  87% (228/262)Updating files:  88% (231/262)Updating files:  89% (234/262)Updating files:  90% (236/262)Updating files:  91% (239/262)Updating files:  92% (242/262)Updating files:  93% (244/262)Updating files:  94% (247/262)Updating files:  95% (249/262)Updating files:  96% (252/262)Updating files:  97% (255/262)Updating files:  98% (257/262)Updating files:  99% (260/262)Updating files: 100% (262/262)Updating files: 100% (262/262), done.
+
+[14:00:37] 🐙 Cloned repository!
+[14:00:37] 🐙 Pulling code changes from Github...
+[14:00:40] 📦 Processing dependencies...
+
+──────────────────────────────────────── uv ───────────────────────────────────────────
+
+Using uv pip install.
+Using Python 3.11.13 environment at /home/adminuser/venv[2025-07-11 14:00:41.333530] 
+Resolved 124 packages in 2.26s
+Prepared [2025-07-11 14:01:27.062893] 124 packages[2025-07-11 14:01:27.063146]  [2025-07-11 14:01:27.063298] in 43.41s[2025-07-11 14:01:27.063420] 
+Uninstalled 1 package in 76ms
+Installed 124 packages in 1.46s
+ + altair==5.5.0
+ + annotated-types==0.7.0[2025-07-11 14:01:28.568373] 
+ + anyio==4.9.0
+ + astor==0.8.1
+ + attrs==25.3.0
+ + blinker==1.9.0
+ + cachetools==5.5.2
+ + certifi==2025.7.9
+ + charset-normalizer[2025-07-11 14:01:28.568597] ==3.4.2
+ + click==8.2.1
+ + cmake==4.0.3
+ + coloredlogs==15.0.1
+ + contourpy==1.3.2
+ + cycler==0.12.1
+ +[2025-07-11 14:01:28.568801]  decorator==5.2.1
+ + filelock==3.18.0
+ + flatbuffers==25.2.10
+ + fonttools==4.58.5
+ + gitdb==4.0.12
+ + gitpython==3.1.44
+ + google-ai-generativelanguage==0.6.15
+ + google-api-core==1.34.1
+ + google-api-python-client==2.176.0
+ + google-auth==2.40.3
+ + google-auth-httplib2==0.2.0
+ + google-generativeai==0.8.5
+ + googleapis-common-protos==1.70.0
+ + grpcio==1.73.1
+ + [2025-07-11 14:01:28.569852] grpcio-status==1.48.2
+ + h11==0.16.0
+ + httpcore==1.0.9
+ + httplib2==0.22.0
+ + httpx[2025-07-11 14:01:28.570074] ==0.28.1
+ + humanfriendly==10.0
+ + idna==3.10
+ + imageio==2.37.0
+ + imgaug==0.4.0
+ + imutils==[2025-07-11 14:01:28.570290] 0.5.4
+ + jinja2==3.1.6
+ + jsonschema==4.24.0
+ + jsonschema-specifications==2025.4.1
+ + kiwisolver==1.4.8
+ + lazy-loader==[2025-07-11 14:01:28.570525] 0.4
+ + lit==18.1.8
+ + markdown-it-py==3.0.0
+ + markupsafe==3.0.2
+ + matplotlib==3.7.1
+ +[2025-07-11 14:01:28.570716]  mdurl==0.1.2
+ + mpmath==1.3.0
+ + narwhals==1.46.0
+ + ncnn==1.0.20240410
+ + networkx==3.5
+ + [2025-07-11 14:01:28.570858] numpy==1.24.4
+ + nvidia-cublas-cu11==11.10.3.66
+ + nvidia-cuda-cupti-cu11==11.7.101
+ + nvidia-cuda-nvrtc-cu11==11.7.99
+ + nvidia-cuda-runtime-cu11==11.7.99
+ [2025-07-11 14:01:28.570979] + nvidia-cudnn-cu11==8.5.0.96
+ + nvidia-cufft-cu11==10.9.0.58
+ + nvidia-curand-cu11==10.2.10.91
+ [2025-07-11 14:01:28.571136] + nvidia-cusolver-cu11==11.4.0.1
+ + nvidia-cusparse-cu11==11.7.4.91
+ + nvidia-nccl-cu11==2.14.3
+ + nvidia-nvtx-cu11==11.7.91
+ + onnxruntime==1.18.0
+ + opencv-python==4.11.0.86
+ + [2025-07-11 14:01:28.571446] opencv-python-headless==4.9.0.80
+ + opt-einsum==3.3.0
+ + packaging==24.2
+ + [2025-07-11 14:01:28.571587] paddlepaddle==2.6.1
+ + pandas==2.2.2
+ + pillow==10.4.0
+ + [2025-07-11 14:01:28.571729] plotly==5.14.1
+ + portalocker==3.2.0
+ + proto-plus==1.26.1
+ +[2025-07-11 14:01:28.571871]  protobuf==3.20.3
+ + psutil==7.0.0
+ + py-cpuinfo==9.0.0
+ + pyarrow==20.0.0
+ +[2025-07-11 14:01:28.572038]  pyasn1==0.6.1
+ + pyasn1-modules==0.4.2
+ + pydantic==2.11.7
+ + pydantic-core==2.33.2
+ + pydeck[2025-07-11 14:01:28.572184] ==0.9.1
+ + pygments==2.19.2
+ + pyparsing==3.2.3
+ + python-dateutil==2.9.0.post0
+ + python-dotenv==1.0.1
+ + pytz==2025.2
+ + pyyaml==6.0.2
+ + referencing==0.36.2
+ + requests==2.32.4
+ [2025-07-11 14:01:28.572482] + rich==13.9.4
+ + rpds-py==0.26.0
+ + rsa==4.9.1
+ + scikit-image==0.25.2
+ + scipy[2025-07-11 14:01:28.572623] ==1.15.3
+ + seaborn==0.13.2
+ - setuptools==80.3.1
+ + setuptools==80.9.0
+ + shapely[2025-07-11 14:01:28.572764] ==2.1.1
+ + six==1.17.0
+ + smmap==5.0.2
+ + sniffio==1.3.1
+ + streamlit==1.36.0
+ +[2025-07-11 14:01:28.572905]  sympy==1.14.0
+ + tenacity==8.5.0
+ + tifffile==2025.6.11
+ + toml==0.10.2
+ + torch==2.0.1
+ + torch-summary==1.4.5
+ + torchvision==0.15.2
+ + tornado==6.5.1
+ + tqdm==4.65.2
+ + triton==2.0.0
+ + typing-extensions==4.14.1[2025-07-11 14:01:28.573068] 
+ + typing-inspection==0.4.1
+ + tzdata==2025.2
+ + ultralytics==8.2.38
+ + ultralytics-thop==2.0.14
+ [2025-07-11 14:01:28.573214] + uritemplate==4.2.0
+ + urllib3==2.5.0
+ + watchdog==4.0.2
+ + wheel==0.45.1
+ +[2025-07-11 14:01:28.573375]  x2paddle==1.4.1
+Checking if Streamlit is installed
+Found Streamlit version 1.36.0 in the environment
+Installing rich for an improved exception logging
+Using uv pip install.
+Using Python 3.11.13 environment at /home/adminuser/venv
+Audited 1 package in 6ms
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[14:01:31] 🐍 Python dependencies were installed from /mount/src/parklytics-with-platepulse-deployed/requirements.txt using uv.
+Check if streamlit is installed
+Streamlit is already installed
+[14:01:33] 📦 Processed dependencies!
+
+
+
+────────────────────── Traceback (most recent call last) ───────────────────────
+  /home/adminuser/venv/lib/python3.11/site-packages/streamlit/runtime/scriptru  
+  nner/script_runner.py:589 in _run_script                                      
+                                                                                
+  /mount/src/parklytics-with-platepulse-deployed/streamlit/pages/license_plate  
+  _image.py:18 in <module>                                                      
+                                                                                
+     15 st.set_page_config(layout="wide", page_title="License Plate Image Dete  
+     16                                                                         
+     17 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu"  
+  ❱  18 model = YOLO(r"../models/license_plate_detection_models/best_120_epoch  
+     19 lprnet = LPRNet(class_num=len(CHARS), dropout_rate=0)                   
+     20 lprnet.to(device)                                                       
+     21 lprnet.load_state_dict(                                                 
+                                                                                
+  /home/adminuser/venv/lib/python3.11/site-packages/ultralytics/models/yolo/mo  
+  del.py:23 in __init__                                                         
+                                                                                
+     20 │   │   │   self.__dict__ = new_instance.__dict__                       
+     21 │   │   else:                                                           
+     22 │   │   │   # Continue with default YOLO initialization                 
+  ❱  23 │   │   │   super().__init__(model=model, task=task, verbose=verbose)   
+     24 │                                                                       
+     25 │   @property                                                           
+     26 │   def task_map(self):                                                 
+                                                                                
+  /home/adminuser/venv/lib/python3.11/site-packages/ultralytics/engine/model.p  
+  y:152 in __init__                                                             
+                                                                                
+    149 │   │   if Path(model).suffix in {".yaml", ".yml"}:                     
+    150 │   │   │   self._new(model, task=task, verbose=verbose)                
+    151 │   │   else:                                                           
+  ❱ 152 │   │   │   self._load(model, task=task)                                
+    153 │                                                                       
+    154 │   def __call__(                                                       
+    155 │   │   self,                                                           
+                                                                                
+  /home/adminuser/venv/lib/python3.11/site-packages/ultralytics/engine/model.p  
+  y:246 in _load                                                                
+                                                                                
+    243 │   │   │   self.overrides = self.model.args = self._reset_ckpt_args(s  
+    244 │   │   │   self.ckpt_path = self.model.pt_path                         
+    245 │   │   else:                                                           
+  ❱ 246 │   │   │   weights = checks.check_file(weights)  # runs in all cases,  
+    247 │   │   │   self.model, self.ckpt = weights, None                       
+    248 │   │   │   self.task = task or guess_model_task(weights)               
+    249 │   │   │   self.ckpt_path = weights                                    
+                                                                                
+  /home/adminuser/venv/lib/python3.11/site-packages/ultralytics/utils/checks.p  
+  y:509 in check_file                                                           
+                                                                                
+    506 │   else:  # search                                                     
+    507 │   │   files = glob.glob(str(ROOT / "**" / file), recursive=True) or   
+    508 │   │   if not files and hard:                                          
+  ❱ 509 │   │   │   raise FileNotFoundError(f"'{file}' does not exist")         
+    510 │   │   elif len(files) > 1 and hard:                                   
+    511 │   │   │   raise FileNotFoundError(f"Multiple files match '{file}', s  
+    512 │   │   return files[0] if len(files) else []  # return file            
+────────────────────────────────────────────────────────────────────────────────
+FileNotFoundError: 
+'../models/license_plate_detection_models/best_120_epoch_int8_openvino_model_640
+' does not exist
+────────────────────── Traceback (most recent call last) ───────────────────────
+  /home/adminuser/venv/lib/python3.11/site-packages/streamlit/runtime/scriptru  
+  nner/script_runner.py:589 in _run_script                                      
+                                                                                
+  /mount/src/parklytics-with-platepulse-deployed/streamlit/pages/license_plate  
+  _video_inference.py:22 in <module>                                            
+                                                                                
+     19                                                                         
+     20                                                                         
+     21 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu"  
+  ❱  22 model = YOLO(r"../models/license_plate_detection_models/best_120_epoch  
+     23 lprnet = LPRNet(class_num=len(CHARS), dropout_rate=0)                   
+     24 lprnet.to(device)                                                       
+     25 lprnet.load_state_dict(                                                 
+                                                                                
+  /home/adminuser/venv/lib/python3.11/site-packages/ultralytics/models/yolo/mo  
+  del.py:23 in __init__                                                         
+                                                                                
+     20 │   │   │   self.__dict__ = new_instance.__dict__                       
+     21 │   │   else:                                                           
+     22 │   │   │   # Continue with default YOLO initialization                 
+  ❱  23 │   │   │   super().__init__(model=model, task=task, verbose=verbose)   
+     24 │                                                                       
+     25 │   @property                                                           
+     26 │   def task_map(self):                                                 
+                                                                                
+  /home/adminuser/venv/lib/python3.11/site-packages/ultralytics/engine/model.p  
+  y:152 in __init__                                                             
+                                                                                
+    149 │   │   if Path(model).suffix in {".yaml", ".yml"}:                     
+    150 │   │   │   self._new(model, task=task, verbose=verbose)                
+    151 │   │   else:                                                           
+  ❱ 152 │   │   │   self._load(model, task=task)                                
+    153 │                                                                       
+    154 │   def __call__(                                                       
+    155 │   │   self,                                                           
+                                                                                
+  /home/adminuser/venv/lib/python3.11/site-packages/ultralytics/engine/model.p  
+  y:246 in _load                                                                
+                                                                                
+    243 │   │   │   self.overrides = self.model.args = self._reset_ckpt_args(s  
+    244 │   │   │   self.ckpt_path = self.model.pt_path                         
+    245 │   │   else:                                                           
+  ❱ 246 │   │   │   weights = checks.check_file(weights)  # runs in all cases,  
+    247 │   │   │   self.model, self.ckpt = weights, None                       
+    248 │   │   │   self.task = task or guess_model_task(weights)               
+    249 │   │   │   self.ckpt_path = weights                                    
+                                                                                
+  /home/adminuser/venv/lib/python3.11/site-packages/ultralytics/utils/checks.p  
+  y:509 in check_file                                                           
+                                                                                
+    506 │   else:  # search                                                     
+    507 │   │   files = glob.glob(str(ROOT / "**" / file), recursive=True) or   
+    508 │   │   if not files and hard:                                          
+  ❱ 509 │   │   │   raise FileNotFoundError(f"'{file}' does not exist")         
+    510 │   │   elif len(files) > 1 and hard:                                   
+    511 │   │   │   raise FileNotFoundError(f"Multiple files match '{file}', s  
+    512 │   │   return files[0] if len(files) else []  # return file            
+────────────────────────────────────────────────────────────────────────────────
+FileNotFoundError: 
+'../models/license_plate_detection_models/best_120_epoch_int8_openvino_model_640
+' does not exist
+────────────────────── Traceback (most recent call last) ───────────────────────
+  /home/adminuser/venv/lib/python3.11/site-packages/streamlit/runtime/scriptru  
+  nner/script_runner.py:589 in _run_script                                      
+                                                                                
+  /mount/src/parklytics-with-platepulse-deployed/streamlit/pages/parking_lot.p  
+  y:100 in <module>                                                             
+                                                                                
+     97                                                                         
+     98                                                                         
+     99 # Example usage                                                         
+  ❱ 100 model = YOLO(r"../models/parking_spaces_detection_models/best_parkingn  
+    101                                                                         
+    102 st.title("🅿️ Parking Lot Detection")                                     
+    103 st.markdown("""                                                         
+                                                                                
+  /home/adminuser/venv/lib/python3.11/site-packages/ultralytics/models/yolo/mo  
+  del.py:23 in __init__                                                         
+                                                                                
+     20 │   │   │   self.__dict__ = new_instance.__dict__                       
+     21 │   │   else:                                                           
+     22 │   │   │   # Continue with default YOLO initialization                 
+  ❱  23 │   │   │   super().__init__(model=model, task=task, verbose=verbose)   
+     24 │                                                                       
+     25 │   @property                                                           
+     26 │   def task_map(self):                                                 
+                                                                                
+  /home/adminuser/venv/lib/python3.11/site-packages/ultralytics/engine/model.p  
+  y:152 in __init__                                                             
+                                                                                
+    149 │   │   if Path(model).suffix in {".yaml", ".yml"}:                     
+    150 │   │   │   self._new(model, task=task, verbose=verbose)                
+    151 │   │   else:                                                           
+  ❱ 152 │   │   │   self._load(model, task=task)                                
+    153 │                                                                       
+    154 │   def __call__(                                                       
+    155 │   │   self,                                                           
+                                                                                
+  /home/adminuser/venv/lib/python3.11/site-packages/ultralytics/engine/model.p  
+  y:246 in _load                                                                
+                                                                                
+    243 │   │   │   self.overrides = self.model.args = self._reset_ckpt_args(s  
+    244 │   │   │   self.ckpt_path = self.model.pt_path                         
+    245 │   │   else:                                                           
+  ❱ 246 │   │   │   weights = checks.check_file(weights)  # runs in all cases,  
+    247 │   │   │   self.model, self.ckpt = weights, None                       
+    248 │   │   │   self.task = task or guess_model_task(weights)               
+    249 │   │   │   self.ckpt_path = weights                                    
+                                                                                
+  /home/adminuser/venv/lib/python3.11/site-packages/ultralytics/utils/checks.p  
+  y:509 in check_file                                                           
+                                                                                
+    506 │   else:  # search                                                     
+    507 │   │   files = glob.glob(str(ROOT / "**" / file), recursive=True) or   
+    508 │   │   if not files and hard:                                          
+  ❱ 509 │   │   │   raise FileNotFoundError(f"'{file}' does not exist")         
+    510 │   │   elif len(files) > 1 and hard:                                   
+    511 │   │   │   raise FileNotFoundError(f"Multiple files match '{file}', s  
+    512 │   │   return files[0] if len(files) else []  # return file            
+────────────────────────────────────────────────────────────────────────────────
+FileNotFoundError: 
+'../models/parking_spaces_detection_models/best_parkingnew_openvino_model' does 
+not exist

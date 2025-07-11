@@ -97,7 +97,7 @@ def video_inference(
 
 
 # Example usage
-model = YOLO(r"../models/parking_spaces_detection_models/best_parkingnew_openvino_model", task="detect")
+model = YOLO(r"models/parking_spaces_detection_models/best_parkingnew_openvino_model", task="detect")
 
 st.title("🅿️ Parking Lot Detection")
 st.markdown("""
