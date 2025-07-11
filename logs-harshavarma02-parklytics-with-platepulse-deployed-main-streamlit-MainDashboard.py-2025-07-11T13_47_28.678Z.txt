@@ -1,0 +1,444 @@
+
+[     UTC     ] Logs for parklytics-with-platepulse.streamlit.app/
+────────────────────────────────────────────────────────────────────────────────────────
+[13:45:53] 🖥 Provisioning machine...
+[13:45:53] 🎛 Preparing system...
+[13:45:53] ⛓ Spinning up manager process...
+[13:45:54] 🚀 Starting up repository: 'parklytics-with-platepulse-deployed', branch: 'main', main module: 'streamlit/MainDashboard.py'
+[13:45:54] 🐙 Cloning repository...
+[13:46:02] 🐙 Cloning into '/mount/src/parklytics-with-platepulse-deployed'...
+Updating files:  31% (82/260)Updating files:  32% (84/260)Updating files:  33% (86/260)Updating files:  34% (89/260)Updating files:  35% (91/260)Updating files:  36% (94/260)Updating files:  37% (97/260)Updating files:  38% (99/260)Updating files:  39% (102/260)Updating files:  40% (104/260)Updating files:  41% (107/260)Updating files:  42% (110/260)Updating files:  43% (112/260)Updating files:  44% (115/260)Updating files:  45% (117/260)Updating files:  46% (120/260)Updating files:  47% (123/260)Updating files:  48% (125/260)Updating files:  49% (128/260)Updating files:  50% (130/260)Updating files:  51% (133/260)Updating files:  52% (136/260)Updating files:  53% (138/260)Updating files:  54% (141/260)Updating files:  55% (143/260)Updating files:  56% (146/260)Updating files:  57% (149/260)Updating files:  58% (151/260)Updating files:  59% (154/260)Updating files:  60% (156/260)Updating files:  61% (159/260)Updating files:  62% (162/260)Updating files:  63% (164/260)Updating files:  63% (166/260)Updating files:  64% (167/260)Updating files:  65% (169/260)Updating files:  66% (172/260)Updating files:  67% (175/260)Updating files:  68% (177/260)Updating files:  69% (180/260)Updating files:  70% (182/260)Updating files:  71% (185/260)Updating files:  72% (188/260)Updating files:  73% (190/260)Updating files:  74% (193/260)Updating files:  75% (195/260)Updating files:  76% (198/260)Updating files:  77% (201/260)Updating files:  78% (203/260)Updating files:  79% (206/260)Updating files:  80% (208/260)Updating files:  81% (211/260)Updating files:  82% (214/260)Updating files:  83% (216/260)Updating files:  84% (219/260)Updating files:  85% (221/260)Updating files:  86% (224/260)Updating files:  87% (227/260)Updating files:  88% (229/260)Updating files:  89% (232/260)Updating files:  90% (234/260)Updating files:  91% (237/260)Updating files:  92% (240/260)Updating files:  93% (242/260)Updating files:  94% (245/260)Updating files:  95% (247/260)Updating files:  96% (250/260)Updating files:  97% (253/260)Updating files:  98% (255/260)Updating files:  99% (258/260)Updating files: 100% (260/260)Updating files: 100% (260/260), done.
+
+[13:46:02] 🐙 Cloned repository!
+[13:46:02] 🐙 Pulling code changes from Github...
+[13:46:06] 📦 Processing dependencies...
+
+──────────────────────────────────────── uv ───────────────────────────────────────────
+
+Using uv pip install.
+Using Python 3.11.13 environment at /home/adminuser/venv
+Resolved 106 packages in 1.55s
+Prepared 106 packages in 30.84s
+Uninstalled 1 package in 66ms
+Installed 106 packages in 962ms
+ + altair==5.5.0
+ + anyio==4.9.0
+ + astor==0.8.1
+ + attrs==25.3.0
+ + blinker==1.9.0
+ +[2025-07-11 13:46:39.903904]  cachetools==5.5.2
+ + certifi==2025.7.9
+ + charset-normalizer==3.4.2
+ + click[2025-07-11 13:46:39.904108] ==8.2.1
+ + cmake==4.0.3
+ + coloredlogs==15.0.1
+ + contourpy==1.3.2
+ + [2025-07-11 13:46:39.904252] cycler==0.12.1
+ + decorator==5.2.1
+ + filelock==3.18.0
+ + flatbuffers==25.2.10
+ + fonttools==4.58.5
+ + gitdb[2025-07-11 13:46:39.904369] ==4.0.12
+ + gitpython==3.1.44
+ + h11==0.16.0
+ + httpcore==1.0.9
+ + httpx==0.28.1
+ + humanfriendly==10.0
+ + idna==3.10[2025-07-11 13:46:39.904608] 
+ + imageio==2.37.0
+ + imgaug==0.4.0
+ + imutils==[2025-07-11 13:46:39.904720] 0.5.4
+ + jinja2==3.1.6
+ + jsonschema==4.24.0
+ + jsonschema-specifications==2025.4.1
+ + kiwisolver==1.4.8
+ + lazy-loader==0.4
+ + lit==18.1.8
+ + [2025-07-11 13:46:39.904945] markdown-it-py==3.0.0
+ + markupsafe==3.0.2
+ + matplotlib==3.7.1[2025-07-11 13:46:39.905149] 
+ + mdurl==0.1.2
+ + mpmath==1.3.0
+ + narwhals==1.46.0[2025-07-11 13:46:39.905257] 
+ + ncnn==1.0.20240410
+ + networkx==3.5
+ + [2025-07-11 13:46:39.905371] numpy==1.24.4
+ + nvidia-cublas-cu11==11.10.3.66
+ + nvidia-cuda-cupti-cu11==11.7.101
+ + nvidia-cuda-nvrtc-cu11==11.7.99
+ + nvidia-cuda-runtime-cu11==11.7.99
+ + nvidia-cudnn-cu11[2025-07-11 13:46:39.905614] ==8.5.0.96
+ + nvidia-cufft-cu11==10.9.0.58
+ + nvidia-curand-cu11==10.2.10.91
+ + nvidia-cusolver-cu11==11.4.0.1
+ + nvidia-cusparse-cu11==11.7.4.91
+ + nvidia-nccl-cu11==[2025-07-11 13:46:39.905819] 2.14.3
+ + nvidia-nvtx-cu11==11.7.91
+ + onnxruntime==1.18.0
+ [2025-07-11 13:46:39.905925] + opencv-contrib-python==4.6.0.66
+ + opencv-python==4.6.0.66
+ + opencv-python-headless[2025-07-11 13:46:39.906062] ==4.9.0.80
+ + opt-einsum==3.3.0
+ + packaging==24.2
+ [2025-07-11 13:46:39.906158] + paddlepaddle==2.6.1
+ + pandas==2.2.2
+ + pillow==[2025-07-11 13:46:39.906250] 10.4.0
+ + plotly==5.14.1
+ + portalocker==3.2.0
+ + protobuf==3.20.3[2025-07-11 13:46:39.906316] 
+ + psutil==7.0.0
+ + py-cpuinfo==9.0.0
+ + pyarrow==20.0.0
+ +[2025-07-11 13:46:39.906380]  pydeck==0.9.1
+ + pygments==2.19.2
+ + pyparsing==3.2.3
+ + python-dateutil==2.9.0.post0
+ + python-dotenv==1.0.1
+ + [2025-07-11 13:46:39.906440] pytz==2025.2
+ + pyyaml==6.0.2
+ + referencing==0.36.2
+ + requests==2.32.4[2025-07-11 13:46:39.906505] 
+ + rich==13.9.4
+ + rpds-py==0.26.0
+ + scikit-image==0.25.2
+ + scipy==1.15.3
+ + seaborn==0.13.2
+ - setuptools[2025-07-11 13:46:39.906632] ==80.3.1
+ + setuptools==80.9.0
+ + shapely==2.1.1[2025-07-11 13:46:39.906710] 
+ + six==1.17.0
+ + smmap==5.0.2
+ + [2025-07-11 13:46:39.906775] sniffio==1.3.1
+ + streamlit==1.36.0
+ + sympy==1.14.0[2025-07-11 13:46:39.906839] 
+ + tenacity==8.5.0
+ + tifffile==2025.6.11
+ + toml[2025-07-11 13:46:39.906901] ==0.10.2
+ + torch==2.0.1
+ + torch-summary==1.4.5
+ + torchvision==0.15.2
+ + tornado==6.5.1
+ + tqdm[2025-07-11 13:46:39.907106] ==4.65.2
+ + triton==2.0.0
+ + typing-extensions==4.14.1[2025-07-11 13:46:39.907197] 
+ + tzdata==2025.2
+ + ultralytics==8.2.38
+ +[2025-07-11 13:46:39.907262]  ultralytics-thop==2.0.14
+ + urllib3==2.5.0
+ + watchdog[2025-07-11 13:46:39.907324] ==4.0.2
+ + wheel==0.45.1
+ + x2paddle==1.4.1[2025-07-11 13:46:39.907386] 
+Checking if Streamlit is installed
+Found Streamlit version 1.36.0 in the environment
+Installing rich for an improved exception logging
+Using uv pip install.
+Using Python 3.11.13 environment at /home/adminuser/venv
+Audited 1 package in 6ms
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[13:46:42] 🐍 Python dependencies were installed from /mount/src/parklytics-with-platepulse-deployed/requirements.txt using uv.
+Check if streamlit is installed
+Streamlit is already installed
+[13:46:44] 📦 Processed dependencies!
+
+
+
+────────────────────── Traceback (most recent call last) ───────────────────────
+  /home/adminuser/venv/lib/python3.11/site-packages/streamlit/elements/image.p  
+  y:385 in image_to_url                                                         
+                                                                                
+    382 │   │                                                                   
+    383 │   │   # Otherwise, try to open it as a file.                          
+    384 │   │   try:                                                            
+  ❱ 385 │   │   │   with open(image, "rb") as f:                                
+    386 │   │   │   │   image_data = f.read()                                   
+    387 │   │   except Exception:                                               
+    388 │   │   │   # When we aren't able to open the image file, we still pas  
+────────────────────────────────────────────────────────────────────────────────
+FileNotFoundError: [Errno 2] No such file or directory: '../demo_/License Plate 
+Detection - Video Analysis demo.png'
+
+During handling of the above exception, another exception occurred:
+
+────────────────────── Traceback (most recent call last) ───────────────────────
+  /home/adminuser/venv/lib/python3.11/site-packages/streamlit/runtime/memory_m  
+  edia_file_storage.py:164 in _read_file                                        
+                                                                                
+    161 │   def _read_file(self, filename: str) -> bytes:                       
+    162 │   │   """Read a file into memory. Raise MediaFileStorageError if we   
+    163 │   │   try:                                                            
+  ❱ 164 │   │   │   with open(filename, "rb") as f:                             
+    165 │   │   │   │   return f.read()                                         
+    166 │   │   except Exception as ex:                                         
+    167 │   │   │   raise MediaFileStorageError(f"Error opening '{filename}'")  
+────────────────────────────────────────────────────────────────────────────────
+FileNotFoundError: [Errno 2] No such file or directory: '../demo_/License Plate 
+Detection - Video Analysis demo.png'
+
+The above exception was the direct cause of the following exception:
+
+────────────────────── Traceback (most recent call last) ───────────────────────
+  /home/adminuser/venv/lib/python3.11/site-packages/streamlit/runtime/scriptru  
+  nner/script_runner.py:589 in _run_script                                      
+                                                                                
+  /mount/src/parklytics-with-platepulse-deployed/streamlit/MainDashboard.py:39  
+  in <module>                                                                   
+                                                                                
+    36 │   │   st.page_link("pages/parking_lot.py", label="Parking Slot Detect  
+    37 │   else:                                                                
+    38 │   │   st.markdown("- Use the sidebar to navigate to detection modules  
+  ❱ 39 │   st.image("../demo_/License Plate Detection - Video Analysis demo.pn  
+    40 │   st.image("../demo_/License Plate Image Detection.png", caption="Ima  
+    41 │   st.image("../demo_/Parking Lot Detection.png", caption="Parking Slo  
+    42                                                                          
+                                                                                
+  /home/adminuser/venv/lib/python3.11/site-packages/streamlit/runtime/metrics_  
+  util.py:408 in wrapped_func                                                   
+                                                                                
+    405 │   │   │   │   # the telemetry never causes any issues.                
+    406 │   │   │   │   _LOGGER.debug("Failed to collect command telemetry", e  
+    407 │   │   try:                                                            
+  ❱ 408 │   │   │   result = non_optional_func(*args, **kwargs)                 
+    409 │   │   except RerunException as ex:                                    
+    410 │   │   │   # Duplicated from below, because static analysis tools get  
+    411 │   │   │   # by deferring the rethrow.                                 
+                                                                                
+  /home/adminuser/venv/lib/python3.11/site-packages/streamlit/elements/image.p  
+  y:161 in image                                                                
+                                                                                
+    158 │   │   │   raise StreamlitAPIException("Image width must be positive.  
+    159 │   │                                                                   
+    160 │   │   image_list_proto = ImageListProto()                             
+  ❱ 161 │   │   marshall_images(                                                
+    162 │   │   │   self.dg._get_delta_path_str(),                              
+    163 │   │   │   image,                                                      
+    164 │   │   │   caption,                                                    
+                                                                                
+  /home/adminuser/venv/lib/python3.11/site-packages/streamlit/elements/image.p  
+  y:550 in marshall_images                                                      
+                                                                                
+    547 │   │   # MediaFileManager. For this, we just add the index to the ima  
+    548 │   │   image_id = "%s-%i" % (coordinates, coord_suffix)                
+    549 │   │                                                                   
+  ❱ 550 │   │   proto_img.url = image_to_url(                                   
+    551 │   │   │   image, width, clamp, channels, output_format, image_id      
+    552 │   │   )                                                               
+    553                                                                         
+                                                                                
+  /home/adminuser/venv/lib/python3.11/site-packages/streamlit/elements/image.p  
+  y:397 in image_to_url                                                         
+                                                                                
+    394 │   │   │   if mimetype is None:                                        
+    395 │   │   │   │   mimetype = "application/octet-stream"                   
+    396 │   │   │                                                               
+  ❱ 397 │   │   │   url = runtime.get_instance().media_file_mgr.add(image, mim  
+    398 │   │   │   caching.save_media_data(image, mimetype, image_id)          
+    399 │   │   │   return url                                                  
+    400                                                                         
+                                                                                
+  /home/adminuser/venv/lib/python3.11/site-packages/streamlit/runtime/media_fi  
+  le_manager.py:224 in add                                                      
+                                                                                
+    221 │   │   │   │   if is_for_static_download                               
+    222 │   │   │   │   else MediaFileKind.MEDIA                                
+    223 │   │   │   )                                                           
+  ❱ 224 │   │   │   file_id = self._storage.load_and_get_id(                    
+    225 │   │   │   │   path_or_data, mimetype, kind, file_name                 
+    226 │   │   │   )                                                           
+    227 │   │   │   metadata = MediaFileMetadata(kind=kind)                     
+                                                                                
+  /home/adminuser/venv/lib/python3.11/site-packages/streamlit/runtime/memory_m  
+  edia_file_storage.py:115 in load_and_get_id                                   
+                                                                                
+    112 │   │   """Add a file to the manager and return its ID."""              
+    113 │   │   file_data: bytes                                                
+    114 │   │   if isinstance(path_or_data, str):                               
+  ❱ 115 │   │   │   file_data = self._read_file(path_or_data)                   
+    116 │   │   else:                                                           
+    117 │   │   │   file_data = path_or_data                                    
+    118                                                                         
+                                                                                
+  /home/adminuser/venv/lib/python3.11/site-packages/streamlit/runtime/memory_m  
+  edia_file_storage.py:167 in _read_file                                        
+                                                                                
+    164 │   │   │   with open(filename, "rb") as f:                             
+    165 │   │   │   │   return f.read()                                         
+    166 │   │   except Exception as ex:                                         
+  ❱ 167 │   │   │   raise MediaFileStorageError(f"Error opening '{filename}'")  
+    168 │                                                                       
+    169 │   def get_stats(self) -> list[CacheStat]:                             
+    170 │   │   # We operate on a copy of our dict, to avoid race conditions    
+────────────────────────────────────────────────────────────────────────────────
+MediaFileStorageError: Error opening '../demo_/License Plate Detection - Video 
+Analysis demo.png'
+────────────────────── Traceback (most recent call last) ───────────────────────
+  /home/adminuser/venv/lib/python3.11/site-packages/streamlit/runtime/scriptru  
+  nner/script_runner.py:589 in _run_script                                      
+                                                                                
+  /mount/src/parklytics-with-platepulse-deployed/streamlit/pages/license_plate  
+  _image.py:2 in <module>                                                       
+                                                                                
+      1 import streamlit as st                                                  
+  ❱   2 from ultralytics import YOLO                                            
+      3 import cv2                                                              
+      4 from model.LPRNET import LPRNet, CHARS                                  
+      5 from model.STN import STNet                                             
+                                                                                
+  /home/adminuser/venv/lib/python3.11/site-packages/ultralytics/__init__.py:10  
+  in <module>                                                                   
+                                                                                
+     7 # Set ENV Variables (place before imports)                               
+     8 os.environ["OMP_NUM_THREADS"] = "1"  # reduce CPU utilization during tr  
+     9                                                                          
+  ❱ 10 from ultralytics.data.explorer.explorer import Explorer                  
+    11 from ultralytics.models import NAS, RTDETR, SAM, YOLO, FastSAM, YOLOWor  
+    12 from ultralytics.utils import ASSETS, SETTINGS                           
+    13 from ultralytics.utils.checks import check_yolo as checks                
+                                                                                
+  /home/adminuser/venv/lib/python3.11/site-packages/ultralytics/data/__init__.  
+  py:3 in <module>                                                              
+                                                                                
+     1 # Ultralytics YOLO 🚀, AGPL-3.0 license                                  
+     2                                                                          
+  ❱  3 from .base import BaseDataset                                            
+     4 from .build import build_dataloader, build_grounding, build_yolo_datase  
+     5 from .dataset import (                                                   
+     6 │   ClassificationDataset,                                               
+                                                                                
+  /home/adminuser/venv/lib/python3.11/site-packages/ultralytics/data/base.py:1  
+  2 in <module>                                                                 
+                                                                                
+      9 from pathlib import Path                                                
+     10 from typing import Optional                                             
+     11                                                                         
+  ❱  12 import cv2                                                              
+     13 import numpy as np                                                      
+     14 import psutil                                                           
+     15 from torch.utils.data import Dataset                                    
+                                                                                
+  /home/adminuser/venv/lib/python3.11/site-packages/cv2/__init__.py:181 in      
+  <module>                                                                      
+                                                                                
+    178 │   if DEBUG: print('OpenCV loader: DONE')                              
+    179                                                                         
+    180                                                                         
+  ❱ 181 bootstrap()                                                             
+    182                                                                         
+                                                                                
+  /home/adminuser/venv/lib/python3.11/site-packages/cv2/__init__.py:153 in      
+  bootstrap                                                                     
+                                                                                
+    150 │                                                                       
+    151 │   py_module = sys.modules.pop("cv2")                                  
+    152 │                                                                       
+  ❱ 153 │   native_module = importlib.import_module("cv2")                      
+    154 │                                                                       
+    155 │   sys.modules["cv2"] = py_module                                      
+    156 │   setattr(py_module, "_native", native_module)                        
+                                                                                
+  /usr/local/lib/python3.11/importlib/__init__.py:126 in import_module          
+                                                                                
+    123 │   │   │   if character != '.':                                        
+    124 │   │   │   │   break                                                   
+    125 │   │   │   level += 1                                                  
+  ❱ 126 │   return _bootstrap._gcd_import(name[level:], package, level)         
+    127                                                                         
+    128                                                                         
+    129 _RELOADING = {}                                                         
+────────────────────────────────────────────────────────────────────────────────
+ImportError: libGL.so.1: cannot open shared object file: No such file or 
+directory
+────────────────────── Traceback (most recent call last) ───────────────────────
+  /home/adminuser/venv/lib/python3.11/site-packages/streamlit/runtime/scriptru  
+  nner/script_runner.py:589 in _run_script                                      
+                                                                                
+  /mount/src/parklytics-with-platepulse-deployed/streamlit/pages/license_plate  
+  _video_inference.py:2 in <module>                                             
+                                                                                
+      1 import streamlit as st                                                  
+  ❱   2 from ultralytics import YOLO                                            
+      3 import cv2                                                              
+      4 from model.LPRNET import LPRNet, CHARS                                  
+      5 from model.STN import STNet                                             
+                                                                                
+  /home/adminuser/venv/lib/python3.11/site-packages/ultralytics/__init__.py:10  
+  in <module>                                                                   
+                                                                                
+     7 # Set ENV Variables (place before imports)                               
+     8 os.environ["OMP_NUM_THREADS"] = "1"  # reduce CPU utilization during tr  
+     9                                                                          
+  ❱ 10 from ultralytics.data.explorer.explorer import Explorer                  
+    11 from ultralytics.models import NAS, RTDETR, SAM, YOLO, FastSAM, YOLOWor  
+    12 from ultralytics.utils import ASSETS, SETTINGS                           
+    13 from ultralytics.utils.checks import check_yolo as checks                
+                                                                                
+  /home/adminuser/venv/lib/python3.11/site-packages/ultralytics/data/__init__.  
+  py:3 in <module>                                                              
+                                                                                
+     1 # Ultralytics YOLO 🚀, AGPL-3.0 license                                  
+     2                                                                          
+  ❱  3 from .base import BaseDataset                                            
+     4 from .build import build_dataloader, build_grounding, build_yolo_datase  
+     5 from .dataset import (                                                   
+     6 │   ClassificationDataset,                                               
+                                                                                
+  /home/adminuser/venv/lib/python3.11/site-packages/ultralytics/data/base.py:1  
+  2 in <module>                                                                 
+                                                                                
+      9 from pathlib import Path                                                
+     10 from typing import Optional                                             
+     11                                                                         
+  ❱  12 import cv2                                                              
+     13 import numpy as np                                                      
+     14 import psutil                                                           
+     15 from torch.utils.data import Dataset                                    
+────────────────────────────────────────────────────────────────────────────────
+ImportError: libGL.so.1: cannot open shared object file: No such file or 
+directory
+────────────────────── Traceback (most recent call last) ───────────────────────
+  /home/adminuser/venv/lib/python3.11/site-packages/streamlit/runtime/scriptru  
+  nner/script_runner.py:589 in _run_script                                      
+                                                                                
+  /mount/src/parklytics-with-platepulse-deployed/streamlit/pages/Parking Data   
+  Insights.py:8 in <module>                                                     
+                                                                                
+      5 from pathlib import Path                                                
+      6 import os                                                               
+      7 from dotenv import load_dotenv                                          
+  ❱   8 import google.generativeai as gen_ai                                    
+      9 import pandas as pd  # Import Pandas for DataFrame operations           
+     10                                                                         
+     11 load_dotenv()                                                           
+────────────────────────────────────────────────────────────────────────────────
+ModuleNotFoundError: No module named 'google.generativeai'
+────────────────────── Traceback (most recent call last) ───────────────────────
+  /home/adminuser/venv/lib/python3.11/site-packages/streamlit/runtime/scriptru  
+  nner/script_runner.py:589 in _run_script                                      
+                                                                                
+  /mount/src/parklytics-with-platepulse-deployed/streamlit/pages/parking_lot.p  
+  y:1 in <module>                                                               
+                                                                                
+  ❱   1 import cv2                                                              
+      2 from datetime import datetime                                           
+      3 from ultralytics import YOLO                                            
+      4 import pandas as pd                                                     
+────────────────────────────────────────────────────────────────────────────────
+ImportError: libGL.so.1: cannot open shared object file: No such file or 
+directory
+────────────────────── Traceback (most recent call last) ───────────────────────
+  /home/adminuser/venv/lib/python3.11/site-packages/streamlit/runtime/scriptru  
+  nner/script_runner.py:589 in _run_script                                      
+                                                                                
+  /mount/src/parklytics-with-platepulse-deployed/streamlit/pages/vehicle_movem  
+  ent_patterns.py:11 in <module>                                                
+                                                                                
+      8 from plotly.subplots import make_subplots                               
+      9 from dotenv import load_dotenv                                          
+     10 import os                                                               
+  ❱  11 import google.generativeai as gen_ai                                    
+     12 import pandas as pd  # Import Pandas for DataFrame operations           
+     13                                                                         
+     14                                                                         
+────────────────────────────────────────────────────────────────────────────────
+ModuleNotFoundError: No module named 'google.generativeai'

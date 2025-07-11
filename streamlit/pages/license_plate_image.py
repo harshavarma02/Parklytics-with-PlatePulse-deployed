@@ -215,7 +215,6 @@ if image is not None:
             st.image(
                 output_image,
                 caption="Processed Image",
-                use_column_width=True,
                 channels="BGR",
             )
         with image_columns[1]:

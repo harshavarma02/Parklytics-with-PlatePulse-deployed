@@ -36,9 +36,9 @@ with col1:
         st.page_link("pages/parking_lot.py", label="Parking Slot Detection", icon="🅿️")
     else:
         st.markdown("- Use the sidebar to navigate to detection modules.")
-    st.image("../demo_/License Plate Detection - Video Analysis demo.png", caption="Video Number Plate Detection", use_column_width=True)
-    st.image("../demo_/License Plate Image Detection.png", caption="Image Number Plate Detection", use_column_width=True)
-    st.image("../demo_/Parking Lot Detection.png", caption="Parking Slot Detection", use_column_width=True)
+    st.image("streamlit/demo_/License Plate Detection - Video Analysis demo.png", caption="Video Number Plate Detection")
+    st.image("streamlit/demo_/License Plate Image Detection.png", caption="Image Number Plate Detection")
+    st.image("streamlit/demo_/Parking Lot Detection.png", caption="Parking Slot Detection")
 
 with col2:
     st.subheader("Analytics Modules")
@@ -47,8 +47,8 @@ with col2:
         st.page_link("pages/Parking Data Insights.py", label="Parking Data Insights", icon="📈")
     else:
         st.markdown("- Use the sidebar to navigate to analytics modules.")
-    st.image("../demo_/Vehicle Movement Analysis.png", caption="Vehicle Movement Patterns", use_column_width=True)
-    st.image("../demo_/Parking-Data-Insights.png", caption="Parking Data Insights", use_column_width=True)
+    st.image("streamlit/demo_/Vehicle Movement Analysis.png", caption="Vehicle Movement Patterns")
+    st.image("streamlit/demo_/Parking-Data-Insights.png", caption="Parking Data Insights")
 
 st.markdown("---")
 

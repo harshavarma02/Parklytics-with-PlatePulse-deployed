@@ -102,25 +102,25 @@ python parking_inference.py -v parking_video.mp4
 ### 🔍 Detection Modules
 
 #### License Plate Image Detection
-![License Plate Image Detection](demo_/License%20Plate%20Image%20Detection.png)
+![License Plate Image Detection](streamlit/demo_/License%20Plate%20Image%20Detection.png)
 *Real-time license plate recognition with confidence scoring and ROI visualization*
 
 #### License Plate Video Analysis
-![License Plate Video Analysis](demo_/License%20Plate%20Detection%20-%20Video%20Analysis%20demo.png)
+![License Plate Video Analysis](streamlit/demo_/License%20Plate%20Detection%20-%20Video%20Analysis%20demo.png)
 *Video-based detection with consecutive frame verification to eliminate false positives*
 
 #### Parking Lot Detection
-![Parking Lot Detection](demo_/Parking%20Lot%20Detection.png)
+![Parking Lot Detection](streamlit/demo_/Parking%20Lot%20Detection.png)
 *Automated parking space monitoring with visual occupancy indicators*
 
 ### 📊 Data Analytics & Insights
 
 #### Vehicle Movement Analysis Dashboard
-![Vehicle Movement Analysis](demo_/Vehicle%20Movement%20Analysis.png)
+![Vehicle Movement Analysis](streamlit/demo_/Vehicle%20Movement%20Analysis.png)
 *Comprehensive traffic analytics with time-series visualization and AI insights*
 
 #### Parking Data Insights
-![Parking Data Insights](demo_/Parking-Data-Insights.png)
+![Parking Data Insights](streamlit/demo_/Parking-Data-Insights.png)
 *Advanced parking analytics with occupancy trends and optimization recommendations*
 
 ---
@@ -160,7 +160,10 @@ Parklytics with PlatePulse /
 │   ├── 🏠 MainDashboard.py     # Main analytics dashboard
 │   └── 📂 pages/               # Detection and analysis modules
 ├── 📂 test_data/               # Sample test files
-├── 📂 demo_/                   # Application screenshots
+├── 📂 streamlit/               # Web application
+│   ├── 🏠 MainDashboard.py     # Main analytics dashboard
+│   ├── 📂 demo_/               # Application screenshots
+│   └── 📂 pages/               # Detection and analysis modules
 └── 📄 requirements.txt         # Python dependencies
 ```
 
