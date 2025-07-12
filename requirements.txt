@@ -18,3 +18,4 @@ x2paddle==1.4.1
 onnxruntime==1.18.0
 streamlit==1.36.0
 google-generativeai==0.8.5
+openvino>=2024.0.0

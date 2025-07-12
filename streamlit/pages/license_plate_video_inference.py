@@ -24,7 +24,7 @@ lprnet = LPRNet(class_num=len(CHARS), dropout_rate=0)
 lprnet.to(device)
 lprnet.load_state_dict(
     torch.load(
-        "./weights/training_checkpoint_files/lprnet_Iter_015300_model.ckpt",
+        "weights/training_checkpoint_files/lprnet_Iter_015300_model.ckpt",
         map_location=lambda storage, loc: storage,
     )["net_state_dict"]
 )
@@ -34,7 +34,7 @@ STN = STNet()
 STN.to(device)
 STN.load_state_dict(
     torch.load(
-        "./weights/training_checkpoint_files/stn_Iter_015300_model.ckpt",
+        "weights/training_checkpoint_files/stn_Iter_015300_model.ckpt",
         map_location=lambda storage, loc: storage,
     )["net_state_dict"]
 )
