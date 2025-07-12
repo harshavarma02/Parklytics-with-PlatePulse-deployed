@@ -1,3 +1,6 @@
+import os
+os.environ['OPENCV_IO_ENABLE_OPENEXR'] = '1'
+os.environ['QT_QPA_PLATFORM'] = 'offscreen'
 import cv2
 from datetime import datetime
 from ultralytics import YOLO
