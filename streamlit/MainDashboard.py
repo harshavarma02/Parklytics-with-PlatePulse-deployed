@@ -1,3 +1,9 @@
+import os
+from dotenv import load_dotenv
+load_dotenv()
+os.environ['OPENCV_IO_ENABLE_OPENEXR'] = '1'
+os.environ['QT_QPA_PLATFORM'] = 'offscreen'
+
 import streamlit as st
 from PIL import Image
 
